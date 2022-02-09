@@ -12,5 +12,3 @@
 | world              |
 +--------------------+
 7 rows in set (0.00 sec)
-
-### CREATE TABLE userlist;
