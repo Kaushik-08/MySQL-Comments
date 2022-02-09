@@ -1,5 +1,5 @@
 # MySQL
-### mysql> show databases;
+### mysql> SHOW DATABASES;
 | Database           |
 |--------------------|
 | information_schema |
@@ -19,6 +19,16 @@
 ###### Query OK, 0 rows affected, 1 warning (0.03 sec)
 
 ### mysql> DESC userlist;
+
+| Database           |
+|--------------------|
+| information_schema |
+| mysql              |
+| performance_schema |
+| prasanna           |
+| sakila             |
+| sys                |
+| world              |
 | Field       | Type         | Null | Key | Default | Extra          |
 |-------------|-------------------------------------|----------------|
 | Id          | int          | NO   | PRI | NULL    | auto_increment |
