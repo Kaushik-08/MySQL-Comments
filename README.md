@@ -19,10 +19,9 @@ Database changed
 Query OK, 0 rows affected, 1 warning (0.03 sec)
 
 ### DESC prasanna;
-+-------+-------------+------+-----+---------+----------------+
 | Field | Type        | Null | Key | Default | Extra          |
-+-------+-------------+------+-----+---------+----------------+
+|-------|-------------|------|-----|---------|----------------|
 | Id    | int         | NO   | PRI | NULL    | auto_increment |
 | name  | varchar(45) | NO   | UNI | NULL    |                |
-+-------+-------------+------+-----+---------+----------------+
+
 2 rows in set (0.01 sec)
