@@ -10,13 +10,13 @@
 | sys                |
 | world              |
 
-7 rows in set (0.00 sec)
+# 7 rows in set (0.00 sec)
 
 ### mysql> USE prasanna;
-Database changed
+# Database changed
 
 ### mysql> CREATE TABLE userlist(Id int primary key auto_increment, Firstname varchar(255), Lastname varchar(255),Age int(2), dateofbirth date);
-Query OK, 0 rows affected, 1 warning (0.03 sec)
+# Query OK, 0 rows affected, 1 warning (0.03 sec)
 
 ### mysql> DESC prasanna;
 | Field | Type        | Null | Key | Default | Extra          |
@@ -24,4 +24,4 @@ Query OK, 0 rows affected, 1 warning (0.03 sec)
 | Id    | int         | NO   | PRI | NULL    | auto_increment |
 | name  | varchar(45) | NO   | UNI | NULL    |                |
 
-2 rows in set (0.01 sec)
+# 2 rows in set (0.01 sec)
