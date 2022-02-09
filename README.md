@@ -257,7 +257,7 @@ CREATE TABLE Constraints(Age int(2) NOT NULL, CHECK (Age>=21));
 CREATE TABLE Constraints(Id int(3) PRIMARY KEY AUTO_INCREMENT);
 ```
 
-### CREATE TABLE width all Constraints without FOREIGN KEY
+### CREATE TABLE with all Constraints without FOREIGN KEY
 
 ```syntax
 CREATE TABLE Constraints(Id int(3) PRIMARY KEY AUTO_INCREMENT, Firstname varchar(255) NOT NULL, Lastname varchar(255) NOT NULL, Email varchar(255) UNIQUE, Age int(2) NOT NULL, dateofbirth date NOT NULL, Department varchar(255) DEFAULT 'Tech', CHECK (Age>=21));
