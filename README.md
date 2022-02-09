@@ -59,7 +59,7 @@ DESC studentslist
 DESCRIBE studentslist
 ```
 | Field       | Type         | Null | Key | Default | Extra          |
-|:----:|:----:|:----:|:----:|:----:|:----|
+|:----|:----|:----:|:----:|:----:|:----|
 | Id          | int          | NO   | PRI | NULL    | auto_increment |
 | Firstname   | varchar(255) | NO   |     | NULL    |                |
 | Lastname    | varchar(255) | NO   |     | NULL    |                |
