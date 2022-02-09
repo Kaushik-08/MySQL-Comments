@@ -19,9 +19,12 @@
 ###### Query OK, 0 rows affected, 1 warning (0.03 sec)
 
 ### mysql> DESC prasanna;
-| Field | Type        | Null | Key | Default | Extra          |
-|-------|-------------|------|-----|---------|----------------|
-| Id    | int         | NO   | PRI | NULL    | auto_increment |
-| name  | varchar(45) | NO   | UNI | NULL    |                |
+| Field       | Type         | Null | Key | Default | Extra          |
+|-------------|-------------------------------------|----------------|
+| Id          | int          | NO   | PRI | NULL    | auto_increment |
+| Firstname   | varchar(255) | YES  |     | NULL    |                |
+| Lastname    | varchar(255) | YES  |     | NULL    |                |
+| Age         | int          | YES  |     | NULL    |                |
+| dateofbirth | date         | YES  |     | NULL    |                |
 
-###### 2 rows in set (0.01 sec)
+5 rows in set (0.01 sec)
