@@ -1,6 +1,6 @@
 # MySQL
 ### mysql> show databases;
-+--------------------+
+|--------------------|
 | Database           |
 +--------------------+
 | information_schema |
