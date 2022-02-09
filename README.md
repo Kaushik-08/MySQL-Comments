@@ -1,5 +1,5 @@
 # MySQL Qureys 
-### show databases;
+### SHOW DATABASES;
 +--------------------+
 | Database           |
 +--------------------+
