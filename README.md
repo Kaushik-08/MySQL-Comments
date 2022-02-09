@@ -115,7 +115,7 @@ SELECT * FROM studentslist WHERE Id='1';
 ```
 
 | Id | Firstname | Lastname | Email                   | Age | dateofbirth |
-|:--:|:----------|:--------:|:------------------------|:---:|:------------|
+|:--:|:----------|:---------|:------------------------|:---:|:------------|
 |  1 | Prasanna  | venkatsh | prasanna@freshclass.com |  21 | 2001-01-20  |
 
 ###### 1 row in set (0.00 sec)
@@ -132,7 +132,7 @@ ALTER TABLE studentslist ADD Department varchar(70);
 SELECT * FROM studentslist;
 ```
 | Id | Firstname | Lastname | Email                   | Age | dateofbirth | Department |
-|:--:|:----------|:--------:|:------------------------|:---:|:------------|:-----------|
+|:--:|:----------|:---------|:------------------------|:---:|:------------|:-----------|
 |  1 | Prasanna  | venkatsh | prasanna@freshclass.com |  21 | 2001-01-20  | NULL       |
 |  2 | Vimal     | raj      | vimal@freshclass.com    |  20 | 2002-01-20  | NULL       |
 
