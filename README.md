@@ -27,4 +27,4 @@
 | Age         | int          | YES  |     | NULL    |                |
 | dateofbirth | date         | YES  |     | NULL    |                |
 
-5 rows in set (0.01 sec)
+###### 5 rows in set (0.01 sec)
