@@ -1,1 +1,1 @@
-# MqSQL
+# MySQL
