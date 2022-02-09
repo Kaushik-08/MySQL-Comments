@@ -9,7 +9,6 @@
 | sakila             |
 | sys                |
 | world              |
-|--------------------|
 7 rows in set (0.00 sec)
 
 ### USE prasanna;
