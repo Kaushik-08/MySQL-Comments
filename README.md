@@ -1,7 +1,9 @@
 # MySQL Qureys 
 ### show databases;
 +--------------------+
+
 | Database           |
+
 +--------------------+
 | information_schema |
 | mysql              |
