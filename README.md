@@ -1,8 +1,7 @@
 # MySQL
 ### mysql> show databases;
-|--------------------|
 | Database           |
-+--------------------+
+|--------------------|
 | information_schema |
 | mysql              |
 | performance_schema |
