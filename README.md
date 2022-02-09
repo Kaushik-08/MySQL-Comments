@@ -395,18 +395,6 @@ SELECT * FROM studentslist WHERE Firstname LIKE '%a';
 ###### 1 row in set (0.00 sec)
 
 *  *  *
-### LIKE
-
-```syntax
-SELECT * FROM studentslist WHERE Firstname LIKE 'Vi%';
-```
-
-| Id | Firstname | Lastname | Email                | Age | dateofbirth | Department |
-|:---|:----------|:---------|:---------------------|:----|:------------|:-----------|
-|  2 | Vimal     | raj      | vimal@freshclass.com |  20 | 2002-01-20  | Design     |
-
-###### 1 row in set (0.00 sec)
-* * *
 
 
 
