@@ -395,10 +395,3 @@ SELECT * FROM studentslist WHERE Firstname LIKE '%a';
 ###### 1 row in set (0.00 sec)
 
 *  *  *
-
-
-
-<<<<<<< HEAD
-
-=======
->>>>>>> de0951fe3e10ebe0d17d38887f37596883f067cb
