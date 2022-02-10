@@ -202,10 +202,6 @@ DROP TABLE studentslist;
 ```
 ###### Query OK, 0 rows affected (0.03 sec)
 ```syntax
-SHOW TABLES;
-```
-###### Empty set (0.01 sec)
-```syntax
 DROP DATABASE freshclass;
 ```
 ###### Query OK, 0 rows affected (0.03 sec)
