@@ -508,8 +508,6 @@ SELECT COUNT(age) FROM Studentslist;
 |       2 |
 
 ###### 1 row in set (0.00 sec)
-* * *
-
 
 ### SUM
 ```syntax
