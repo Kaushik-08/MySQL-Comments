@@ -398,4 +398,7 @@ SELECT * FROM studentslist WHERE Firstname LIKE '%a';
 
 
 
+<<<<<<< HEAD
 
+=======
+>>>>>>> de0951fe3e10ebe0d17d38887f37596883f067cb
