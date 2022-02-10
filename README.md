@@ -83,7 +83,7 @@ DESCRIBE studentslist;
 ### The MySQL INSERT INTO Statement
 
 ```syntax
-INSERT INTO studentslist (Firstname,Lastname,Email,Age,dateofbirth) VALUES ('Prasanna','venkatsh','prasanna@freshclass.com','21','2001-01-20');
+INSERT INTO studentslist (Firstname,Lastname,Email,Age,dateofbirth) VALUES ('Prasanna','venkatesh,'prasanna@freshclass.com','21','2001-01-20');
 ```
 
 ###### Query OK, 1 row affected (0.00 sec)
@@ -102,7 +102,7 @@ SELECT * FROM studentslist;
 
 | Id | Firstname | Lastname | Email                   | Age | dateofbirth |
 |:--:|:----------|:--------:|:------------------------|:---:|:------------|
-|  1 | Prasanna  | venkatsh | prasanna@freshclass.com |  21 | 2001-01-20  |
+|  1 | Prasanna  | venkatesh| prasanna@freshclass.com |  21 | 2001-01-20  |
 |  2 | Vimal  | raj | vimal@freshclass.com |  20 | 2002-01-20  |
 
 ###### 1 row in set (0.01 sec)
@@ -116,7 +116,7 @@ SELECT * FROM studentslist WHERE Id='1';
 
 | Id | Firstname | Lastname | Email                   | Age | dateofbirth |
 |:--:|:----------|:---------|:------------------------|:---:|:------------|
-|  1 | Prasanna  | venkatsh | prasanna@freshclass.com |  21 | 2001-01-20  |
+|  1 | Prasanna  | venkatesh| prasanna@freshclass.com |  21 | 2001-01-20  |
 
 ###### 1 row in set (0.00 sec)
 * * *
@@ -155,7 +155,7 @@ SELECT * FROM studentslist;
 ```
 | Id | Firstname | Lastname | Email                   | Age | dateofbirth | Department |
 |:--:|:----------|:---------|:------------------------|:---:|:------------|:-----------|
-|  1 | Prasanna  | venkatsh | prasanna@freshclass.com |  21 | 2001-01-20  | NULL       |
+|  1 | Prasanna  | venkatesh| prasanna@freshclass.com |  21 | 2001-01-20  | NULL       |
 |  2 | Vimal     | raj      | vimal@freshclass.com    |  20 | 2002-01-20  | NULL       |
 
 ###### 2 rows in set (0.00 sec)
@@ -173,7 +173,7 @@ SELECT * FROM studentslist;
 ```
 | Id | Firstname | Lastname | Email                   | Age | dateofbirth | Department |
 |:--:|:----------|:---------|:------------------------|:---:|:------------|:-----------|
-|  1 | Prasanna  | venkatsh | prasanna@freshclass.com |  21 | 2001-01-20  | Tech       |
+|  1 | Prasanna  | venkatesh| prasanna@freshclass.com |  21 | 2001-01-20  | Tech       |
 |  2 | Vimal     | raj      | vimal@freshclass.com    |  20 | 2002-01-20  | NULL       |
 
 ###### 2 rows in set (0.00 sec)
@@ -262,7 +262,7 @@ CREATE TABLE Constraints(Id int(3) PRIMARY KEY AUTO_INCREMENT, Firstname varchar
 ### INSERT INTO
 
 ```syntax
-INSERT INTO Constraints(Firstname,Lastname,Email,Age,dateofbirth) VALUES ('Prasanna','venkatsh','prasanna@freshclass.com','21','2001-01-20');
+INSERT INTO Constraints(Firstname,Lastname,Email,Age,dateofbirth) VALUES ('Prasanna','venkatesh,'prasanna@freshclass.com','21','2001-01-20');
 ```
 ###### Query OK, 1 row affected (0.01 sec)
 ```syntax
@@ -286,7 +286,7 @@ SELECT * FROM Constraints;
 ```
 | Id | Firstname | Lastname | Email                   | Age | dateofbirth | Department |
 |:---|:----------|:---------|:------------------------|:----|:------------|:-----------|
-|  1 | Prasanna  | venkatsh | prasanna@freshclass.com |  21 | 2001-01-20  | Tech       |
+|  1 | Prasanna  | venkatesh| prasanna@freshclass.com |  21 | 2001-01-20  | Tech       |
 
 ###### 1 row in set (0.01 sec)
 
@@ -332,7 +332,7 @@ SELECT * FROM studentslist;
 ```
 | Id | Firstname | Lastname | Email                   | Age | dateofbirth | Department |
 |:--:|:----------|:---------|:------------------------|:---:|:------------|:-----------|
-|  1 | Prasanna  | venkatsh | prasanna@freshclass.com |  21 | 2001-01-20  | Tech       |
+|  1 | Prasanna  | venkatesh| prasanna@freshclass.com |  21 | 2001-01-20  | Tech       |
 |  2 | Vimal     | raj      | vimal@freshclass.com    |  20 | 2002-01-20  | NULL       |
 
 ###### 2 rows in set (0.00 sec)
@@ -381,7 +381,7 @@ SELECT * FROM studentslist WHERE Age BETWEEN 20 AND 22;
 ```
 | Id | Firstname | Lastname | Email                   | Age | dateofbirth | Department |
 |:---|:----------|:---------|:------------------------|:----|:------------|:-----------|
-|  1 | Prasanna  | venkatsh | prasanna@freshclass.com |  21 | 2001-01-20  | Tech       |
+|  1 | Prasanna  | venkatesh| prasanna@freshclass.com |  21 | 2001-01-20  | Tech       |
 |  2 | Vimal     | raj      | vimal@freshclass.com    |  20 | 2002-01-20  | Design     |
 
 ###### 2 rows in set (0.00 sec)
@@ -394,7 +394,7 @@ SELECT * FROM studentslist WHERE Department IN ('Tech');
 ```
 | Id | Firstname | Lastname | Email                   | Age | dateofbirth | Department |
 |:---|:----------|:---------|:------------------------|:----|:------------|:-----------|
-|  1 | Prasanna  | venkatsh | prasanna@freshclass.com |  21 | 2001-01-20  | Tech       |
+|  1 | Prasanna  | venkatesh| prasanna@freshclass.com |  21 | 2001-01-20  | Tech       |
 
 ###### 1 row in set (0.01 sec)
 *  *  *
@@ -417,7 +417,7 @@ SELECT * FROM studentslist WHERE Firstname LIKE '%a';
 
 | Id | Firstname | Lastname | Email                   | Age | dateofbirth | Department |
 |:---|:----------|:---------|:------------------------|:----|:------------|:-----------|
-|  1 | Prasanna  | venkatsh | prasanna@freshclass.com |  21 | 2001-01-20  | Tech       |
+|  1 | Prasanna  | venkatesh| prasanna@freshclass.com |  21 | 2001-01-20  | Tech       |
 
 ###### 1 row in set (0.00 sec)
 
